@@ -1,0 +1,31 @@
+.row {
+    margin-left: 20px;
+    color: rgb(251, 244, 244);
+    margin-top: auto;
+    /* background-image: url('https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png'); */
+  
+ 
+  }
+  
+  .row__posters {
+    display: flex;
+    margin-top: auto;
+    /* background-image: url('https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png'); */
+    /* overflow-y: hidden;
+    overflow-x: scroll; */
+    padding: 20px 0;
+  }
+  
+  .row__poster {
+    max-height: 200px;
+    object-fit: contain;
+    margin-right: 10px;
+    transition: transform 450ms;
+    cursor: pointer;
+  }
+  
+  .row__poster:hover {
+    transform: scale(1.08);
+    
+  }
+  

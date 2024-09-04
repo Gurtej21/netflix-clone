@@ -1,0 +1,22 @@
+.app {
+position: relative;
+  height: auto; /* Full viewport height */
+  background: 
+    linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /* Dark overlay */
+    url('https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png') no-repeat center center/cover;
+  color: white; 
+ 
+
+
+}
+
+
+
+  /* background-image: url('https://gtwallpaper.org/sites/default/files/wallpaper/246844/netflix-background-246844-2224599-6408439.png');
+  background-size: cover;
+  background-position: center;
+  /* margin: 0%; */
+  /* background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1;
+  color: white; */ 
+

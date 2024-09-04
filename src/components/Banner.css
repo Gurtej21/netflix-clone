@@ -1,0 +1,53 @@
+.banner {
+    position: relative;
+    height: 400px;
+    color: white;
+    object-fit: contain;
+  }
+  
+  .banner__contents {
+    position: absolute;
+    top: 30%;
+    left: 30px;
+    z-index: 1;
+  }
+  
+  .banner__title {
+    font-size: 3rem;
+    margin-bottom: 20px;
+  }
+  
+  .banner__buttons {
+    display: flex;
+  }
+  
+  .banner__button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    padding: 8px 20px;
+    margin-right: 10px;
+    background-color: rgba(218, 214, 214, 0.5);
+  }
+  
+  .banner__description {
+    width: 45rem;
+    line-height: 1.3;
+    padding-top: 10px;
+  }
+  
+  .banner--fadeBottom {
+    position: absolute;
+    bottom: 0;
+    height: 100rem;
+    background-image: linear-gradient(
+      180deg,
+      /* transparent,
+      rgba(242, 238, 238, 0.61),
+      #f7f4f4 */
+    );
+    width: 100%;
+  }
+
+  
